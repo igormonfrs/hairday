@@ -12,6 +12,4 @@ selectedDate.min = inputToday
 
 form.onsubmit = (event) => {
   event.preventDefault()
-
-  console.log("Enviado")
 }
