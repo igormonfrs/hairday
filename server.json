@@ -1,9 +1,3 @@
 {
-  "schedules": [
-    {
-      "id": 1727542672124,
-      "name": "Igor Dos Reis",
-      "when": "2024-09-28T17:00:00.000Z"
-    }
-  ]
+  "schedules": []
 }

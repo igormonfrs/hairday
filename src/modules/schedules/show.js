@@ -18,7 +18,7 @@ export function schedulesShow({ dailySchedules }) {
       const time = document.createElement("strong")
       const name = document.createElement("span")
 
-      // Adiciona o id do angemaneto.
+      // Adiciona o id do agendamento.
       item.setAttribute("data-id", schedule.id)
 
       time.textContent = dayjs(schedule.when).format("HH:mm")
