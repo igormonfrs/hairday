@@ -21,6 +21,7 @@ export function hoursLoad({ date }) {
     }
   })
 
+  // Renderiza os horários.
   opening.forEach(({ hour, available }) => {
     const li = document.createElement("li")
 
@@ -29,6 +30,7 @@ export function hoursLoad({ date }) {
 
     li.textContent = hour
 
+    // Adiciona o header, conforme os horários
     if (hour === "9:00") {
       hourHeaderAdd("Manhã")
     } else if (hour === "13:00") {
